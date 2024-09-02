@@ -5,20 +5,28 @@ A code input component for react native
 ## Installation
 
 ```sh
-npm install react-native-code-input
+npm install react-native-otp-code-input
 ```
 
 ## Usage
 
+```tsx
+import { CodeInput } from 'react-native-otp-code-input'
 
-```js
-import { multiply } from 'react-native-code-input';
+const [code, setCode] = useState<string>('')
 
-// ...
-
-const result = await multiply(3, 7);
+;<CodeInput
+	value={code}
+	onValueChange={(code) => {
+		console.log(`Code changed ${code}`)
+		setCode(code)
+	}}
+	onFilled={(code) => {
+		console.log(`Code filled ${code}`)
+	}}
+	length={6}
+/>
 ```
-
 
 ## Contributing
 
