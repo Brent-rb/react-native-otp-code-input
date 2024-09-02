@@ -36,7 +36,7 @@
 		"!**/.*"
 	],
 	"scripts": {
-		"example": "yarn workspace react-native-code-input-example",
+		"example": "yarn workspace react-native-otp-code-input-example",
 		"test": "jest",
 		"typecheck": "tsc",
 		"lint": "eslint \"**/*.{js,ts,tsx}\"",

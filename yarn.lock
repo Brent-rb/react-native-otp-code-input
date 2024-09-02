@@ -12528,9 +12528,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-code-input-example@workspace:example":
+"react-native-otp-code-input-example@workspace:example":
   version: 0.0.0-use.local
-  resolution: "react-native-code-input-example@workspace:example"
+  resolution: "react-native-otp-code-input-example@workspace:example"
   dependencies:
     "@babel/core": ^7.20.0
     "@expo/metro-runtime": ~3.2.3
@@ -12544,9 +12544,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-code-input@workspace:.":
+"react-native-otp-code-input@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-code-input@workspace:."
+  resolution: "react-native-otp-code-input@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0

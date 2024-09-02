@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { StyleSheet, View, Text, Button } from 'react-native'
-import { CodeInput } from 'react-native-code-input'
+import { CodeInput } from 'react-native-otp-code-input'
 
 export default function App() {
 	const [code, setCode] = useState<string>('')
