@@ -108,7 +108,6 @@ const CodeBox: React.FC<CodeBoxProps> = ({
 									backgroundColor:
 										focusedTextStyle?.color ??
 										textStyle?.color ??
-										styles.focusedTextStyle.color ??
 										styles.textStyle.color,
 								},
 								styles.cursor,
