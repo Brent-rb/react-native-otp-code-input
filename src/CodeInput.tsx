@@ -272,8 +272,7 @@ const styles = StyleSheet.create({
 
 	focusedCellStyle: {
 		borderWidth: 2,
-		borderColor: 'white',
-		backgroundColor: 'black',
+		borderColor: 'black',
 	},
 
 	textStyle: {
@@ -283,7 +282,6 @@ const styles = StyleSheet.create({
 
 	focusedTextStyle: {
 		fontWeight: 'bold',
-		color: 'white',
 	},
 
 	cursor: {
