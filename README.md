@@ -15,7 +15,7 @@ import { CodeInput } from 'react-native-otp-code-input'
 
 const [code, setCode] = useState<string>('')
 
-;<CodeInput
+<CodeInput
 	value={code}
 	onValueChange={(code) => {
 		console.log(`Code changed ${code}`)
